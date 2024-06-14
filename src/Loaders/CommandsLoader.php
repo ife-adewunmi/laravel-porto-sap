@@ -1,6 +1,6 @@
 <?php
 
-namespace Iadewunmi\PortoSapl\Loaders;
+namespace Iadewunmi\PortoSap\Loaders;
 
 use Iadewunmi\PortoSap\Commands\Traits\ConsoleKernel;
 

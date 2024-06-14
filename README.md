@@ -75,7 +75,7 @@ You can find more information about Porto by this link: https://github.com/Mahmo
 
 1. First of all you need to install the package:
     ```
-    composer require iadewunmi/porto-sap
+    composer require iadewunmi/laravel-porto-sap
     ```
 2. Next, you need to enable installed package in your .env file: 
     ```

@@ -5,7 +5,7 @@ namespace Iadewunmi\PortoSap\Loaders;
 use Iadewunmi\PortoSap\Traits\FilesAndDirectories;
 use Illuminate\Foundation\Http\Kernel;
 
-trait MiddlewareLoader
+trait MiddlewareLoaderTrait
 {
     use FilesAndDirectories;
 

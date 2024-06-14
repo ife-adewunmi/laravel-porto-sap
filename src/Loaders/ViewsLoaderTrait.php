@@ -4,7 +4,7 @@ namespace Iadewunmi\PortoSap\Loaders;
 
 use Iadewunmi\PortoSap\Traits\FilesAndDirectories;
 
-trait ViewsLoader
+trait ViewsLoaderTrait
 {
     use FilesAndDirectories;
 

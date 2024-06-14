@@ -4,7 +4,7 @@ namespace Iadewunmi\PortoSap\Loaders;
 
 use Iadewunmi\PortoSap\Commands\Traits\ConsoleKernel;
 
-trait CommandsLoader
+trait CommandsLoaderTrait
 {
     use ConsoleKernel;
 

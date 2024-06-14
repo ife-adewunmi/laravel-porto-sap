@@ -2,32 +2,19 @@
 
 namespace Iadewunmi\PortoSap\Loaders;
 
-use Iadewunmi\PortoSap\Loaders\{
-    ConfigsLoader,
-    RoutesLoader,
-    TranslationsLoader,
-    MigrationsLoader,
-    MiddlewareLoader,
-    AliasesLoader,
-    ViewsLoader,
-    ProvidersLoader,
-    HelpersLoader,
-    CommandsLoader,
-};
-
 trait AutoLoaderTrait
 {
     // Using each component loader trait
-    use ConfigsLoader;
-    use RoutesLoader;
-    use TranslationsLoader;
-    use MigrationsLoader;
-    use MiddlewareLoader;
-    use AliasesLoader;
-    use ViewsLoader;
-    use ProvidersLoader;
-    use HelpersLoader;
-    use CommandsLoader;
+    use ConfigsLoaderTrait;
+    use RoutesLoaderTrait;
+    use TranslationsLoaderTrait;
+    use MigrationsLoaderTrait;
+    use MiddlewareLoaderTrait;
+    use AliasesLoaderTrait;
+    use ViewsLoaderTrait;
+    use ProvidersLoaderTrait;
+    use HelpersLoaderTrait;
+    use CommandsLoaderTrait;
 
     /**
      * To be used from the `boot` function of the main service provider.

@@ -4,7 +4,7 @@ namespace Iadewunmi\PortoSap\Loaders;
 
 use Iadewunmi\PortoSap\Traits\FilesAndDirectories;
 
-trait TranslationsLoader
+trait TranslationsLoaderTrait
 {
     use FilesAndDirectories;
 

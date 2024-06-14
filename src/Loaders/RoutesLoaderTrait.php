@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Route;
 use Closure;
 
-trait RoutesLoader
+trait RoutesLoaderTrait
 {
     use FilesAndDirectories;
 

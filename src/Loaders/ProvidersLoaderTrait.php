@@ -5,7 +5,7 @@ namespace Iadewunmi\PortoSap\Loaders;
 use Iadewunmi\PortoSap\Traits\FilesAndDirectories;
 use Illuminate\Support\Facades\App;
 
-trait ProvidersLoader
+trait ProvidersLoaderTrait
 {
     use FilesAndDirectories;
 

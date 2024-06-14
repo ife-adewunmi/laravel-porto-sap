@@ -2,7 +2,7 @@
 
 namespace Iadewunmi\PortoSap;
 
-use Apiato\Core\Loaders\AutoLoaderTrait;
+use Iadewunmi\PortoSap\Loaders\AutoLoaderTrait;
 use Illuminate\Support\ServiceProvider;
 
 class PortoServiceProvider extends ServiceProvider

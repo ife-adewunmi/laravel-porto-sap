@@ -111,7 +111,7 @@ You can find more information about Porto by this link: https://github.com/Mahmo
    ```php
 
     return [
-      delete\Providers\AppServiceProvider::class,
+      App\Providers\AppServiceProvider::class,
     ];
    ```
 

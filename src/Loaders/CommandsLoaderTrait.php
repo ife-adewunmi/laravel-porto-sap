@@ -2,7 +2,7 @@
 
 namespace Iadewunmi\PortoSap\Loaders;
 
-use Iadewunmi\PortoSap\Commands\Traits\ConsoleKernel;
+use Iadewunmi\PortoSap\Generator\Traits\ConsoleKernel;
 
 trait CommandsLoaderTrait
 {
@@ -42,9 +42,7 @@ trait CommandsLoaderTrait
     protected function loadCommandsForRegister(): void
     {
         $commandFiles = $this->findFilesInDirectories([
-            __DIR__.'/../Commands',
-            __DIR__.'/../Commands/Generators',
-            __DIR__.'/../Commands/Models'
+            __DIR__ . '/../Generator/Commands',
         ]);
 
         $commandClasses = [];

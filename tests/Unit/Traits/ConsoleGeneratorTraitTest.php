@@ -133,7 +133,7 @@ class ConsoleGeneratorTraitTest extends TestCase
      */
     public function testBuildClassMethod(string $stub): void
     {
-        $this->trait->setStub(__DIR__.'/../../../src/Commands/Generators/stubs/'.$stub);
+        $this->trait->setStub(__DIR__ . '/../../../src/Generator/Commands/stubs/' .$stub);
 
         $this->assertIsString($this->trait->buildClass('ClassName'));
     }
